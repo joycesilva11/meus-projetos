@@ -11,7 +11,7 @@ header{
     text-align: center;
 }
 nav ul {
-    list-style-type:joyce;
+    list-style-type:nome;
     padding: 0;
     margin: 0;
 }
@@ -19,3 +19,34 @@ nav ul li {
     display:inline;
     margin: 0 10 px;
 }
+nav a {
+    color:white;
+    text-decoration: nome;
+}
+    section{ 
+        padding: 20px;
+        margin: 10 px;
+        border-radius:5px;
+    }
+    .projetos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .projetos ul{
+        list-style: nome;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .projetos{
+       margin: 10px;
+    }
+    footer{
+        text-align: center;
+        padding: 10px;
+        background:#333;
+        color:white;
+
+    }
